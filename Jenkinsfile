@@ -10,7 +10,7 @@ pipeline {
 
     stage('Test') {
       steps {
-        sh 'npm test'
+        build 'sde-deployment-test'
       }
     }
 
